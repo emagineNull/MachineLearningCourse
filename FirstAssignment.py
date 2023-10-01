@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 from utils import *
 import copy
 import math
-%matplotlib inline
+#%matplotlib inline
 
 def compute_cost(x, y, w, b):
     m = x.shape[0]
